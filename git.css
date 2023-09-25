@@ -1,7 +1,74 @@
 .con {
     width: 100%;
     float: none;
+    margin: auto 60px;
+    margin-left: 150px;
 }
+
+.main {
+    width: 100%;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: azure;
+    padding-left: 20px;
+    margin-right: 200px;
+}
+
+.logo a {
+    font-size: 60px;
+    float: left;
+    margin-left: 170px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-decoration: none;
+    width: 60%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo p {
+    margin-left: 170px;
+    width: 60%;
+}
+
+li {
+    display: inline-block;
+    margin: 50px 20px 0px 0px;
+    padding-right: 5px;
+    font-size: 24px;
+}
+
+li a {
+    text-decoration: none;
+    background-color: black;
+    padding: 5px 15px 5px;
+    color: white;
+    border: 1px solid;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+button {
+    margin-right: 40px;
+    text-decoration: none;
+    padding: 8px 15px 8px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 5px;
+    margin-top: opx;
+}
+
+button a {
+    margin-left: 10px;
+}
+
+.navbar-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 
 
 .menu-1 {
@@ -54,5 +121,4 @@ h3 {
     border-radius: 5px;
     margin-right: 200px;
     font-size: 20px;
-
 }
