@@ -3,6 +3,7 @@
     float: none;
     margin: auto 60px;
     margin-left: 150px;
+    background-color: rgb(74, 220, 220);
 }
 
 .main {
@@ -11,9 +12,13 @@
 }
 
 .navbar {
-    background-color: azure;
+    background-color: rgb(74, 220, 220);
     padding-left: 20px;
-    margin-right: 200px;
+    margin-right: 165px;
+    float: center;
+    margin-left: 165px;
+
+
 }
 
 .logo a {
@@ -23,12 +28,12 @@
     margin-top: 15px;
     overflow: hidden;
     text-decoration: none;
-    width: 60%;
+    margin-left: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .logo p {
-    margin-left: 170px;
+    margin-left: 20px;
     width: 60%;
 }
 
@@ -61,6 +66,7 @@ button {
 
 button a {
     margin-left: 10px;
+    padding: opx auto;
 }
 
 .navbar-1 {
@@ -69,6 +75,22 @@ button a {
     width: 100%;
 }
 
+.st {
+    float: right;
+    margin-top: 45px;
+    padding-left: 10px;
+    display: inline-block;
+    padding-right: 10px;
+    margin-right: opx auto;
+
+}
+
+.nd {
+    float: right;
+    display: inline-block;
+    margin-top: 45px;
+    margin-left: 0px auto;
+}
 
 
 .menu-1 {
@@ -82,6 +104,24 @@ button a {
     border: 3px solid black;
     border-radius: 10px;
 
+}
+
+.menu-1 h2 a {
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+}
+
+.menu-2 h2 a {
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+}
+
+.menu-3 h2 a {
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
 }
 
 .menu-2 {
@@ -121,4 +161,61 @@ h3 {
     border-radius: 5px;
     margin-right: 200px;
     font-size: 20px;
+}
+
+.text-section {
+    width: 40%;
+    margin: 50px 50px 50px 200px;
+}
+
+.see-more {
+    float: left;
+
+}
+
+
+h1 {
+    font-size: 50px;
+    color: black;
+    font-family: cursive;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+h1 a {
+    text-decoration: color(srgb red green blue);
+    color: rgb(74, 220, 220);
+    animation: backwards;
+}
+
+h1 a:hover {
+    background-color: black;
+    color: aqua;
+    content: cover;
+}
+
+p {
+    font-size: 24px;
+    margin-top: 0px auto;
+}
+
+button {
+    background-color: rgb(19, 187, 187);
+    border: 1px solid gray;
+}
+
+button a {
+    text-decoration: none;
+    font-size: medium;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.image {
+    max-width: 320px;
+    margin: 0px auto;
+    padding: 0px;
+    display: flex;
+    float: right;
 }
