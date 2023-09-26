@@ -211,11 +211,3 @@ button a {
     text-decoration: none;
     color: black;
 }
-
-.image {
-    max-width: 320px;
-    margin: 0px auto;
-    padding: 0px;
-    display: flex;
-    float: right;
-}
