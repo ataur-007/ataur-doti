@@ -87,8 +87,8 @@ button a {
 
 .nd {
     float: right;
-    display: inline-block;
-    margin-top: 45px;
+    display: inline;
+    /* margin-top: 45px; */
     margin-left: 0px auto;
 }
 
