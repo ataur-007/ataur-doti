@@ -87,9 +87,14 @@ button a {
 
 .nd {
     float: right;
-    display: inline;
-    /* margin-top: 45px; */
-    margin-left: 0px auto;
+    margin-top: 45px;
+    padding-left: 10px;
+    display: inline-block;
+    padding-right: 10px;
+    margin-right: opx auto;
+    margin-top: 0;
+    margin-bottom: 50px;
+    visibility: hidden;
 }
 
 
